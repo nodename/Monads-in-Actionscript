@@ -16,12 +16,12 @@ package monadicCode
 			return NOTHING;
 		}
 		
-		const yValue:* = Maybe.fromJust(y);
+		const yValue:* = y.fromJust();
 		if (yValue == 0)
 		{
 			return NOTHING;
 		}
-		return just(Maybe.fromJust(x) / yValue);
+		return just(x.fromJust() / yValue);
 	}
 }
 
