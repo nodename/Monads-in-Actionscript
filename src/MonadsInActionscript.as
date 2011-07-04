@@ -16,6 +16,9 @@ package
 	// So we'll be throwing stars in our monad implementations, and we'll have to be careful to keep track of
 	// our parameter and return types.
 	
+	// None of the comments in these source files is going to explain in general what a nonad is.
+	// Hopefully you will gain benefit from understanding a couple of specific monad types.
+	
 	public class MonadsInActionscript extends Sprite
 	{
 		public function MonadsInActionscript()
